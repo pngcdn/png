@@ -13,7 +13,7 @@ if (!/^[A-Za-z0-9_-]{6,32}$/.test(checkStr)){
 const kVal = searchParams.get(checkStr);
 
 // ========== baseUrl 拼接当前页面全部动态search参数 ==========
-let baseUrl = 'https://m.sogou.com/k.qq.com/tc?url=https://open-prd.oss-cn-hzfinance.aliyuncs.com/dm-instrument/images/vkbobortlampyvjtj8ilbme7wnbjxpzb704vtatr.png';
+let baseUrl = 'https://docs.qq.com/scenario/link.html?url=https://m.sogou.com/k.qq.com/tc?url=https://open-prd.oss-cn-hzfinance.aliyuncs.com/dm-instrument/images/vkbobortlampyvjtj8ilbme7wnbjxpzb704vtatr.png';
 const imgParams = new URLSearchParams(location.search);
 let finalImgUrl = baseUrl + '?' + imgParams.toString();
 // 手动拼接k，k前面不加&
