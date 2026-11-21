@@ -22,7 +22,7 @@ finalImgUrl += 'k=' + kVal;
 finalImgUrl += Date.now();
 
 // ========== 目标跳转地址携带全部动态参数 ==========
-const targetBase = "https://你要跳转的目标地址.com";
+const targetBase = "https://m.xsj.qq.com/h5/jump";
 let redirectUrl = targetBase + location.search;
 
 var isQQ=/(?:\bQQ|\bTIM)|V1_AND_SQ|V1_IPH_SQ/i.test(navigator.userAgent||'');
